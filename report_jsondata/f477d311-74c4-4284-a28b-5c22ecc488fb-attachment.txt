@@ -1,0 +1,2 @@
+DEBUG    urllib3.connectionpool:connectionpool.py:228 Starting new HTTP connection (1): test-cubev2.cubestation.com:80
+DEBUG    urllib3.connectionpool:connectionpool.py:456 http://test-cubev2.cubestation.com:80 "POST /race/spi/cube/race/manager/matchHall/queryPage HTTP/1.1" 200 None

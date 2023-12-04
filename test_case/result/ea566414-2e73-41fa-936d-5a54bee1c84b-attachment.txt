@@ -1,0 +1,2 @@
+{"groupId": 70, "subtypeName": "修改类别名称1700545715", "subtypeId": null, "displayTime": 1700545715, "startTime": 1700645715, "endTime": 1701045715, "disappearTime": 1701545715}
+{'code': 500, 'msg': '类别ID不能为空', 'data': None}

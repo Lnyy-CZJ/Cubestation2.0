@@ -1,0 +1,1 @@
+{'code': 200, 'msg': '接口调用成功', 'data': {'curPage': 1, 'pageList': [{'id': 9, 'groupName': '小组9'}, {'id': 8, 'groupName': '测试小组1'}], 'total': 2}}

@@ -1,0 +1,2 @@
+{"groupId": 70, "subtypeId": 16, "id": null, "name": "修改大厅名称1700029428", "startType": 2, "enrollStime": 1700029428, "enrollEtime": 1700039428, "enterTime": 1700049428, "matchStime": 1700059428, "rules": 1, "rulesDescr": "这是修改了的赛季描述", "bulletin": "这是修改了的赛季公告", "reward": ""}
+{'code': 500, 'msg': '大厅ID不能为空', 'data': None}

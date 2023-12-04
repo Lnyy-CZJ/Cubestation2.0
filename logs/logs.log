@@ -1,0 +1,41 @@
+2023-11-21 13:48:35 | DEBUG | Starting new HTTP connection (1): test-cubev2.cubestation.com:80 | connectionpool.py | connectionpool | _new_conn | 228
+2023-11-21 13:48:35 | DEBUG | http://test-cubev2.cubestation.com:80 "POST /race/spi/cube/race/manager/group/create HTTP/1.1" 200 None | connectionpool.py | connectionpool | _make_request | 456
+2023-11-21 13:48:35 | DEBUG | Starting new HTTP connection (1): test-cubev2.cubestation.com:80 | connectionpool.py | connectionpool | _new_conn | 228
+2023-11-21 13:48:35 | DEBUG | http://test-cubev2.cubestation.com:80 "POST /race/spi/cube/race/manager/group/alert HTTP/1.1" 200 None | connectionpool.py | connectionpool | _make_request | 456
+2023-11-21 13:48:35 | DEBUG | Starting new HTTP connection (1): test-cubev2.cubestation.com:80 | connectionpool.py | connectionpool | _new_conn | 228
+2023-11-21 13:48:35 | DEBUG | http://test-cubev2.cubestation.com:80 "POST /race/spi/cube/race/manager/group/delete HTTP/1.1" 200 None | connectionpool.py | connectionpool | _make_request | 456
+2023-11-21 13:48:35 | DEBUG | Starting new HTTP connection (1): test-cubev2.cubestation.com:80 | connectionpool.py | connectionpool | _new_conn | 228
+2023-11-21 13:48:35 | DEBUG | http://test-cubev2.cubestation.com:80 "POST /race/spi/cube/race/manager/group/queryPage HTTP/1.1" 200 None | connectionpool.py | connectionpool | _make_request | 456
+2023-11-21 13:48:35 | DEBUG | Starting new HTTP connection (1): test-cubev2.cubestation.com:80 | connectionpool.py | connectionpool | _new_conn | 228
+2023-11-21 13:48:35 | DEBUG | http://test-cubev2.cubestation.com:80 "POST /race/spi/cube/race/manager/subtype/create HTTP/1.1" 200 None | connectionpool.py | connectionpool | _make_request | 456
+2023-11-21 13:48:35 | ERROR | Test case test_005_CreateSubtype failed: <ExceptionInfo TypeError("'NoneType' object is not subscriptable") tblen=17> | conftest.py | conftest | pytest_runtest_makereport | 56
+2023-11-21 13:48:35 | DEBUG | Starting new HTTP connection (1): test-cubev2.cubestation.com:80 | connectionpool.py | connectionpool | _new_conn | 228
+2023-11-21 13:48:35 | DEBUG | http://test-cubev2.cubestation.com:80 "POST /race/spi/cube/race/manager/subtype/alert HTTP/1.1" 200 None | connectionpool.py | connectionpool | _make_request | 456
+2023-11-21 13:48:35 | ERROR | Test case test_006_AlertSubtype failed: <ExceptionInfo AssertionError('assert 500 == 200') tblen=17> | conftest.py | conftest | pytest_runtest_makereport | 56
+2023-11-21 13:48:35 | DEBUG | Starting new HTTP connection (1): test-cubev2.cubestation.com:80 | connectionpool.py | connectionpool | _new_conn | 228
+2023-11-21 13:48:35 | DEBUG | http://test-cubev2.cubestation.com:80 "POST /race/spi/cube/race/manager/subtype/delete HTTP/1.1" 200 None | connectionpool.py | connectionpool | _make_request | 456
+2023-11-21 13:48:35 | ERROR | Test case test_007_DeleteSubtype failed: <ExceptionInfo AssertionError('assert 500 == 200') tblen=17> | conftest.py | conftest | pytest_runtest_makereport | 56
+2023-11-21 13:48:35 | DEBUG | Starting new HTTP connection (1): test-cubev2.cubestation.com:80 | connectionpool.py | connectionpool | _new_conn | 228
+2023-11-21 13:48:35 | DEBUG | http://test-cubev2.cubestation.com:80 "POST /race/spi/cube/race/manager/subtype/queryPage HTTP/1.1" 200 None | connectionpool.py | connectionpool | _make_request | 456
+2023-11-21 13:48:35 | DEBUG | Starting new HTTP connection (1): test-cubev2.cubestation.com:80 | connectionpool.py | connectionpool | _new_conn | 228
+2023-11-21 13:48:35 | DEBUG | http://test-cubev2.cubestation.com:80 "POST /race/spi/cube/race/manager/matchHall/create HTTP/1.1" 200 None | connectionpool.py | connectionpool | _make_request | 456
+2023-11-21 13:48:35 | ERROR | Test case test_009_CreateMatchHallTpye2 failed: <ExceptionInfo AssertionError('assert 0 == 200') tblen=17> | conftest.py | conftest | pytest_runtest_makereport | 56
+2023-11-21 13:48:35 | DEBUG | Starting new HTTP connection (1): test-cubev2.cubestation.com:80 | connectionpool.py | connectionpool | _new_conn | 228
+2023-11-21 13:48:35 | DEBUG | http://test-cubev2.cubestation.com:80 "POST /race/spi/cube/race/manager/matchHall/alert HTTP/1.1" 200 None | connectionpool.py | connectionpool | _make_request | 456
+2023-11-21 13:48:35 | ERROR | Test case test_010_AlertMatchHallTpye2 failed: <ExceptionInfo AssertionError('assert 0 == 200') tblen=17> | conftest.py | conftest | pytest_runtest_makereport | 56
+2023-11-21 13:48:35 | DEBUG | Starting new HTTP connection (1): test-cubev2.cubestation.com:80 | connectionpool.py | connectionpool | _new_conn | 228
+2023-11-21 13:48:35 | DEBUG | http://test-cubev2.cubestation.com:80 "POST /race/spi/cube/race/manager/matchHall/delete HTTP/1.1" 200 None | connectionpool.py | connectionpool | _make_request | 456
+2023-11-21 13:48:35 | ERROR | Test case test_011_DeleteMatchHallTpye2 failed: <ExceptionInfo AssertionError('assert 500 == 200') tblen=17> | conftest.py | conftest | pytest_runtest_makereport | 56
+2023-11-21 13:48:35 | DEBUG | Starting new HTTP connection (1): test-cubev2.cubestation.com:80 | connectionpool.py | connectionpool | _new_conn | 228
+2023-11-21 13:48:35 | DEBUG | http://test-cubev2.cubestation.com:80 "POST /race/spi/cube/race/manager/matchHall/create HTTP/1.1" 200 None | connectionpool.py | connectionpool | _make_request | 456
+2023-11-21 13:48:35 | ERROR | Test case test_012_CreateMatchHallTpye1 failed: <ExceptionInfo TypeError("'NoneType' object is not subscriptable") tblen=17> | conftest.py | conftest | pytest_runtest_makereport | 56
+2023-11-21 13:48:36 | DEBUG | Starting new HTTP connection (1): test-cubev2.cubestation.com:80 | connectionpool.py | connectionpool | _new_conn | 228
+2023-11-21 13:48:36 | DEBUG | http://test-cubev2.cubestation.com:80 "POST /race/spi/cube/race/manager/matchHall/alert HTTP/1.1" 200 None | connectionpool.py | connectionpool | _make_request | 456
+2023-11-21 13:48:36 | ERROR | Test case test_013_AlertMatchHallTpye1 failed: <ExceptionInfo AssertionError('assert 0 == 200') tblen=17> | conftest.py | conftest | pytest_runtest_makereport | 56
+2023-11-21 13:48:36 | DEBUG | Starting new HTTP connection (1): test-cubev2.cubestation.com:80 | connectionpool.py | connectionpool | _new_conn | 228
+2023-11-21 13:48:36 | DEBUG | http://test-cubev2.cubestation.com:80 "POST /race/spi/cube/race/manager/matchHall/delete HTTP/1.1" 200 None | connectionpool.py | connectionpool | _make_request | 456
+2023-11-21 13:48:36 | ERROR | Test case test_014_DeleteMatchHallTpye1 failed: <ExceptionInfo AssertionError('assert 500 == 200') tblen=17> | conftest.py | conftest | pytest_runtest_makereport | 56
+2023-11-21 13:48:36 | DEBUG | Starting new HTTP connection (1): test-cubev2.cubestation.com:80 | connectionpool.py | connectionpool | _new_conn | 228
+2023-11-21 13:48:36 | DEBUG | http://test-cubev2.cubestation.com:80 "POST /race/spi/cube/race/manager/matchHall/queryPage HTTP/1.1" 200 None | connectionpool.py | connectionpool | _make_request | 456
+2023-11-21 13:48:36 | DEBUG | Starting new HTTP connection (1): test-cubev2.cubestation.com:80 | connectionpool.py | connectionpool | _new_conn | 228
+2023-11-21 13:48:36 | DEBUG | http://test-cubev2.cubestation.com:80 "POST /race/spi/cube/race/manager/matchHall/queryPage HTTP/1.1" 200 None | connectionpool.py | connectionpool | _make_request | 456

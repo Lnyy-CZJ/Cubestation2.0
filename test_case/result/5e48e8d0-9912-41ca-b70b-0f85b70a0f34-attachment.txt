@@ -1,0 +1,3 @@
+{"groupId": 70, "subtypeName": "类别名称1700029428", "displayTime": 1700029428, "startTime": 1700129428, "endTime": 1700529428, "disappearTime": 1701029428}
+{'code': 200, 'msg': '接口调用成功', 'data': {'id': 4, 'groupId': 70, 'subtypeName': '类别名称1700029428', 'displayTime': 1700029428, 'disappearTime': 1701029428, 'startTime': 1700129428, 'endTime': 1700529428}}
+4

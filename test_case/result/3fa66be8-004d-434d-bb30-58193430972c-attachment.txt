@@ -1,0 +1,2 @@
+{"groupId": 70, "subtypeId": 16, "name": "大厅名称Tpye11700545715", "startType": 1, "enrollStime": 1700545715, "enrollEtime": 1700555715, "enterTime": 1700565715, "matchStime": 1700575715, "rules": 1, "rulesDescr": "这是赛季描述", "bulletin": "这是赛季公告", "reward": ""}
+{'code': 0, 'msg': '接口调用失败', 'data': None}
